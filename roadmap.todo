@@ -72,7 +72,7 @@ literal que será exportado.
   + Essa função deve remover um cachorro do array e salvar o array no arquivo.
   . Ela deve recber um único parâmetro
     ✘ id  (Id cachorro do cachorro a ser vacinado) @cancelled(22-07-05 09:24)
-    + id  (Id cachorro do cachorro)
+    + id  (Id cachorro do cachorro a ser vacinado)
   . Essa função não deve retornar nada
   . Essa função deve imprimir uma mensagem "Cachorro inexistente"
     caso não exista um cachorro com o id passado.

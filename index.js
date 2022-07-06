@@ -1,5 +1,3 @@
-const inquirer = require('inquirer');
-
 const acoes = require("./settings/acoes");
 const perguntas = require('./settings/perguntas');
 const funcoes = require('./funcoes');
@@ -77,4 +75,3 @@ function startInquire(){
 
 console.clear();
 startInquire();
-
