@@ -103,9 +103,9 @@
     },
     {
         "id":7,
-        "nome": "Cancelado",
+        "nome": "Louis Hamilton",
         "sexo": "m",
-        "castrado": true,
+        "castrado": false,
         "dataDeNascimento": "2021-10-13",
         "peso": 1,
         "vacinas": [],

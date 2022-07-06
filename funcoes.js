@@ -15,5 +15,4 @@ let funcoes = {
     }
 }
 
-
 module.exports = funcoes;
