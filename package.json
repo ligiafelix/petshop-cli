@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/sergiomoura/petshop-cli/issues"
   },
-  "homepage": "https://github.com/sergiomoura/petshop-cli#readme"
+  "homepage": "https://github.com/sergiomoura/petshop-cli#readme",
+  "devDependencies": {}
 }
