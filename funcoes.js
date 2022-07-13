@@ -17,6 +17,7 @@ function buscar(id){
     });
     return cachorroBuscado ? cachorroBuscado : `Não existe cachorro com o id ${id}`;
  }
+ //console.log(buscar(4))
  let funcoes ={
       
     //buscar()
@@ -34,7 +35,8 @@ function buscar(id){
            return cachorroBuscado;
        }
     },
-        //console.log(descrever())
+    
+    //console.log(descrever())
     
     adicionar: function(cachorro){
        
@@ -58,7 +60,7 @@ function buscar(id){
     vacinar: (id, nomeDaVacina, dataDaVacina) => {
           let cachorroBuscado = buscar(id);
           dataDaVacina = new Date
-          dataDaVacina = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`
+          //dataDaVacina = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`
     
           if (cachorroBuscado.id){
            cachorroBuscado.vacinas.push({nome: nomeDaVacina, data: dataDaVacina});
@@ -74,8 +76,8 @@ function buscar(id){
      
        atribuirServico: (id, nome, data) =>{
           let cachorroBuscado = buscar(id);
-          data = new Date;
-          dataDoServico = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`
+          //data = new Date;
+          //dataDoServico = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`
           if (cachorroBuscado.id){
               cachorroBuscado.servicos.push({nome: nome, data: data})
              }else{
@@ -101,8 +103,9 @@ function buscar(id){
        };
     // remover(14)
     
+
+      funcoes.listar()    
         module.exports = funcoes; 
 
-
-
 module.exports =cachorros
+
